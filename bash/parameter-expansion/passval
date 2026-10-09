@@ -1,0 +1,10 @@
+#!/bin/bash
+
+password="124578"
+echo "Length: ${#password}"
+# 10
+
+# Validation
+if [[ ${#password} -lt 8 ]]; then
+    echo "Password too short"
+fi

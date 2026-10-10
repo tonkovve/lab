@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Description: Tell the color of a fruit
+
+name="Description: Tell the color of a fruit"
+echo $name
+
